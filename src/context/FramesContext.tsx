@@ -6,7 +6,7 @@ import { useIsMobile } from "@/hooks/ui/useIsDesktop";
 const MOBILE_FRAMES = 258;
 const DESKTOP_FRAMES = 254;
 
-const READY_FRAMES = 150;
+const READY_FRAMES = 100;
 
 const CONCURRENCY = 6;
 

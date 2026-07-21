@@ -41,7 +41,7 @@ export const Hero = () => {
           }}
         />
 
-        <div className={`absolute inset-x-0 top-36 flex flex-col items-center gap-3 px-6 text-center transition-all duration-700 ease-out
+        <div className={`absolute inset-x-0 top-36 flex flex-col items-center gap-3 px-4 text-center transition-all duration-700 ease-out
                       ${eyebrowVisible ? "translate-y-0 opacity-100" : "-translate-y-3 opacity-0"}`}
         >
           <span className="text-xs lg:text-sm uppercase tracking-[0.15em] text-beige/75">
