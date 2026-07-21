@@ -50,7 +50,7 @@ export const Hero = () => {
           <span className="h-8 w-px bg-linear-to-b from-beige/75 to-transparent" />
         </div>
 
-        <div className="absolute inset-0 flex items-center justify-center px-6 sm:px-4">
+        <div className="absolute inset-0 flex items-center justify-center px-4">
           <div className="relative" style={{ transform: `translateY(${lerp(0, -2.5, drift)}vh)` }}>
             <div className="pointer-events-none absolute -top-9 -left-1 sm:-top-12 sm:-left-12 lg:-top-14 lg:-left-16">
               <CircuitBracket t={bracketTL} />
